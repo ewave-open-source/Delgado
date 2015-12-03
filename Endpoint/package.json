@@ -1,0 +1,20 @@
+{
+  "name": "Delgado.Endpoint",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "Delgado.Endpoint",
+  "author": {
+    "name": "roi1",
+    "email": "roi@ewave.co.il"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "js2xmlparser2": "^0.2.0",
+    "media-typer": "^0.3.0",
+    "mongodb": "^2.0.40",
+    "phantomjs": "^1.9.19"
+  }
+}

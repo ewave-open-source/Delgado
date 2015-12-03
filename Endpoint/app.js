@@ -1,0 +1,13 @@
+﻿var express = require('express');
+global.appRoot = __dirname;
+var fs = require('fs');
+var path = require('path');
+var url = require('url');
+var querystring = require('querystring');
+var dal = require('./classes/dal.js');
+var config = require('./classes/config.js');
+var server = require('./classes/tunnelServer.js');
+var api = require('./classes/api.js');
+var app = express();
+server.start(app);
+module.exports = app;

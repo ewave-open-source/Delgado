@@ -1,0 +1,24 @@
+﻿{
+    "name": "testing all node options",
+    "url": "",
+    "port": "3002",
+    "appRoot": "/",
+    "couchBase": "",
+    "hosts": [ "http://127.0.0.1:8093/" ],
+    "mongodb": { "host": "mongodb://localhost:27017/delgado" },
+    "mimeTypes": { ".html": "text/html; charset=utf-8",".aspx": "text/html; charset=utf-8",
+        ".css": "text/css",
+        ".js": "text/javascript",
+        ".less": "text/less",
+        ".json": "application/json; charset=utf-8",
+        ".ttf": "application/font-woff",
+          ".woff": "application/font-woff"
+
+
+        
+
+
+    } 
+        
+    
+}
